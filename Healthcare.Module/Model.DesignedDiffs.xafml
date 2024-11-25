@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="StradaSoft">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+    <Class Name="Healthcare.Module.BusinessObjects.Doctor" ImageName="BO_Folder" />
+  </BOModel>
+  <ImageSources>
+    <FileImageSource Folder="Images" Index="3" />
+    <AssemblyResourceImageSource AssemblyName="Healthcare.Module" Index="5" />
+  </ImageSources>
+  <NavigationItems>
+    <Items>
+      <Item Id="@51655711-474e-48bf-abdb-b0250e780d54" Caption="Patient Management" ImageName="patient" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Patient_ListView" ViewId="Patient_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@521400a6-e44f-4b1f-9119-2a073d023414" Caption="Appointments Management" ImageName="BO_Appointment" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Appointment_ListView" ViewId="Appointment_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@70ca946d-41db-4b6f-923f-5c734813b67d" Caption="Bill Management" ImageName="BO_Invoice" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Bill_ListView" ViewId="Bill_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@a9a1693c-be4e-42b0-bf51-bd78510014e2" Caption="Clinical Management" ImageName="clinic.png" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Doctor_ListView" ViewId="Doctor_ListView" ObjectKey="" ImageName="mydoctor" IsNewNode="True" />
+          <Item Id="MedicalRecord_ListView" ViewId="MedicalRecord_ListView" ObjectKey="" ImageName="medicalrecord" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@dca38c31-274d-4b95-9431-c8739ec74e5b" Caption="Adminstration" ChildItemsDisplayStyle="List" ImageName="Action_Security_ChangePassword" IsNewNode="True" />
+      <Item Id="Default" Removed="True">
+        <Items>
+          <Item Id="Appointment_ListView" Removed="True" />
+          <Item Id="Bill_ListView" Removed="True" />
+          <Item Id="Doctor_ListView" Removed="True" />
+          <Item Id="MedicalRecord_ListView" Removed="True" />
+          <Item Id="Patient_ListView" Removed="True" />
+          <Item Id="Prescription_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="23.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+  </Views>
+</Application>

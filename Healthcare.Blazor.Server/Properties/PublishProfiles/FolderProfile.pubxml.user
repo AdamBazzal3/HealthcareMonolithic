@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\stradaAdminPublish</_PublishTargetUrl>
+    <History>True|2024-07-02T18:41:16.2854009Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConnectionString">
+      <Value>Data Source=localhost%3bInitial Catalog=StradaSoft%3bUser Id=StradaAdmin%3bPassword=d0M0reT%40lkLess%402024</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
